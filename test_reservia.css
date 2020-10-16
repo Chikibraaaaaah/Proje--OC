@@ -1,0 +1,82 @@
+
+/** Structure page**/
+
+body
+{
+    background-color: #F2F2F2;
+   
+   
+}
+
+/** Header**/
+
+header
+{
+    height: 20%;
+    border: 3px solid black;
+}
+
+
+nav
+{
+    display: flex;
+}
+
+
+ul
+{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-end;
+    width: 3500px;
+    list-style-type: none;
+      
+}
+
+li
+{
+    padding-left: 50px ;
+    padding-right: 10px;
+    
+}
+
+
+.header
+{
+    display: flex;
+}
+
+
+/** Corps de la page **/
+
+
+
+#hebergement
+{
+   
+    width: 66%;
+    border: 3px solid red;
+    display: flex;
+   
+}
+
+
+.hotel
+{
+border: 6px solid green;
+   
+}
+
+.aubcan
+{
+    height: 150px;
+}
+
+
+.hotpor
+{
+    height: 150px;
+}
+
+
+
