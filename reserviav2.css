@@ -1,0 +1,250 @@
+html
+{
+    width: 1600px;
+    margin: auto;
+}
+
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu
+{
+    display: flex;
+    
+}
+
+li
+{
+    list-style-type: 13;
+    margin-right: 3px;
+    padding-right: 50px;    
+    list-style-type: none;
+
+}
+
+
+
+
+
+                                /* Barre de recherche */
+
+
+#barre_recherche
+{
+    display: flex;
+    font-size: 2em;
+}
+ 
+.geoloc
+{
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid rgb(221, 215, 215);
+    border-radius: 7px 0px 0px 7px;
+}
+
+.barre
+{
+    padding-right: 60px;
+    padding-left: 5px;
+}
+
+.rechercher
+{
+    padding-left: 4px;
+    padding-right: 5px;   
+    background-color: rgb(113, 113, 240);
+    border-radius: 0px 7px 7px 0px;
+}
+
+
+                                        /* Barre de filtres */
+
+#filtres
+{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    font-size: 1.3em;
+
+}
+.bouton
+{
+ font-size: 1.2em;
+
+}
+
+
+.fas.fa-child
+{
+    background-color: #DBF2FF;
+    
+    
+}
+
+.bouton:nth-child(1)
+{
+
+  background-color: green;
+}
+
+
+.fas.fa-money-bill-wave
+{
+    background-color: #DBF2FF;
+  
+   
+}
+
+
+.bouton:nth-child(2)
+{
+
+}
+.fas.fa-heart
+{
+    background-color: #DBF2FF;
+}
+
+
+.bouton:nth-child(3)
+{
+
+}
+
+.fas.fa-dog
+{
+    background-color: #DBF2FF;
+}
+
+
+.bouton.bouton:nth-child(4)
+{
+
+}
+
+
+
+.test
+{
+    list-style-type: none;
+    border: 2px solid red;
+    font-size: 1.3em;
+    border-radius:40%;
+    
+}
+.photos
+{
+    width: 250px;
+    height: 160px;
+    border-radius: 10px 10px 0px 0px;
+   
+}
+
+
+
+td
+{
+    border: 3px solid white;
+    
+    border-radius: 10%;
+    justify-content: space-around;
+    text-align: center;  
+}
+
+
+.pop
+{
+    width: 200px;
+    height: 150px;
+}
+
+
+
+table
+{
+    
+    width: 900px;
+    margin: auto; 
+    border-spacing:  5px 5px;
+
+}
+
+.table
+
+{
+    padding-top: 80px;
+}
+
+#heber
+{
+    background-color: grey;
+    width: 66.6%;
+    
+   
+    
+}
+
+
+
+.corps
+{
+    display: flex;
+    
+}
+
+#p2
+{
+    width: 400px;
+    margin: auto;
+    background-color: grey;
+    
+   
+
+}
+
+figcaption
+{
+    text-align: center;
+}
+
+footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.footer
+{
+    position: relative;
+
+}
+
+#populaire
+{
+    padding-left: 100px;
+}
+
+figcaption
+{
+    background-color: white;
+}
+
+.foactiv
+{
+    width: 200px;
+    height: 160px;
+}
+
+#activite
+{
+
+    display: flex;
+    
+}

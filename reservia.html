@@ -1,53 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="reservia.css" />
+        <script src="https://kit.fontawesome.com/549ebc5e13.js" crossorigin="anonymous"></script>
         <title>Reservia</title>
     </head>
 
-    <header>
+    <body>
 
-        <div class="header">
+        <header>
 
-             <figure>
-                    <img src="C:/Users/Titoune/Desktop/formation_open _classrooms/Avec_tuteur/Projets/P2_tristan_riedinger/Projet 2 - Reservia/images/logo/Reservia.svg"/>
-            </figure>
+            <div class="header">
 
-
-                    <!-- Manquera partie interactive avec barre indiquant onglet actuel -->
-            <ul class="menu">
-                <li><a href="#Hébergement">Hébergements</a></li>
-                <li><a href="#Activités">Activités</li></a>
-                <li><a href="#S'inscrire">S'inscrire</a></li>
-            </ul>
-
-        </div>   
-
-            <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-            <p>En plein centre ville ou en pleine nature</p>               
-            
-            
-
-
-    
-             <nav>
-
-             <!-- Manque barre de recherche avec possibilité de Géolocaliser AVEC FILTRES DE RECHERCHE -->
-
-                 <figure >
-                    <img src="C:/Users/Titoune/Desktop/formation_open _classrooms/Avec_tuteur/Projets/P2_tristan_riedinger/Projet 2 - Reservia/info.png"/>                    
+                <figure>
+                        <img src="images/logo/Reservia.svg"/>
                 </figure>
 
 
-                <p>Plus de X logements disponibles dans cette ville</p> <!-- Insérer variable avec résultat recherche -->
+                        <!-- Manquera partie interactive avec barre indiquant onglet actuel -->
 
-            </nav>  
-         
-    </header>
+                <ul class="menu">
+                    <li><a href="#Hébergement">Hébergements</a></li>
+                    <li><a href="#Activités">Activités</a></li>
+                    <li><a href="#S'inscrire">S'inscrire</a></li>
+                </ul>
+
+            </div>   
+
+                <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+                <p>En plein centre ville ou en pleine nature</p>               
+                
+                
+
+
+        
+         <nav>
+
+                
+            <div class="barre_recherche">
+
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Marseille, France</p>
+                <p class="rechercher">Rechercher</p>
+
+            </div>
+
+               
+
+                    <div class="filtres">
+
+                        <h2>Filtres</h2>
+
+                        <ul>
+                            <li>Economique</li>
+                            <li>Familial</li>
+                            <li>Romantique</li>
+                            <li>Animaux autorisés</li>
+                        </ul>
+                    </div>         
+                
+               
+                    
+               <i class="fas fa-info-circle"></i>
+
+            </nav>
+
+                    <p>Plus de X logements disponibles dans cette ville</p> 
+
+          
+            
+        </header>
     
 
-    <body>
+    
 
        
 
@@ -61,14 +87,15 @@
                          <div id="hotel">
 
                             <figure>
-                                <img src="C:\Users\Titoune\Desktop\formation_open _classrooms\Avec_tuteur\Projets\P2_tristan_riedinger\Projet 2 - Reservia\images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" titile="Auberge La cannebière" class="aubcan" />
+                                <img src="images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" titile="Auberge La cannebière" class="aubcan" />
+                                        <figcaption>Auberge de la Cannebiere</br>Nuit à partir de 25€</figcaption>
                             </figure>
 
-                                <div id="apercu">
-                                     <h3>Auberge de la Cannebière</h3>
-                                        <p>Nuit à partir de 25€</p>
+                                
+                                     
+                                        
                                                  <!-- Il faudra insérer variable pour le résultat de recherche avec les étoiles correspondantes -->                        
-                                </div>
+                                
                         </div>
 
 
@@ -76,7 +103,7 @@
 
                         <div id="hotel">
                             <figure>
-                                <img src="C:\Users\Titoune\Desktop\formation_open _classrooms\Avec_tuteur\Projets\P2_tristan_riedinger\Projet 2 - Reservia\images\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg" titile="Hotel du port" class="hotpor" />
+                                <img src="images\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg" titile="Hotel du port" class="hotpor" />
                             </figure>
                             <div id="apercu">
                                 <h3>Hôtel du port</h3>
@@ -91,7 +118,7 @@
 
                         <div id="hotel">
                             <figure>
-                                <img src="C:\Users\Titoune\Desktop\formation_open _classrooms\Avec_tuteur\Projets\P2_tristan_riedinger\Projet 2 - Reservia\images\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" titile="Hotel les mouettes" class="hotmou" />
+                                <img src="images\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" titile="Hotel les mouettes" class="hotmou" />
                             </figure>
                             <div id="apercu">
                                  <h3>Hôtel Les mouettes</h3>
@@ -107,7 +134,7 @@
 
                         <div id="hotel">
                             <figure>
-                                <img src="C:\Users\Titoune\Desktop\formation_open _classrooms\Avec_tuteur\Projets\P2_tristan_riedinger\Projet 2 - Reservia\images\hebergements\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg" titile="Hotel de la mer" class="hotmer" />
+                                <img src="images\hebergements\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg" titile="Hotel de la mer" class="hotmer" />
                             </figure>
                             <div id="apercu">
                                 <h3>Hôtel de la mer</h3>
@@ -121,7 +148,7 @@
 
                         <div id="hotel">
                             <figure>
-                                <img src="C:\Users\Titoune\Desktop\formation_open _classrooms\Avec_tuteur\Projets\P2_tristan_riedinger\Projet 2 - Reservia\images\hebergements\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg" titile="Auberge Le Panier" class="aubpan" />
+                                <img src="images\hebergements\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg" titile="Auberge Le Panier" class="aubpan" />
                             </figure>
                             <div id="apercu">
                                 <h3>Auberge le Panier</h3>
@@ -136,7 +163,7 @@
 
                         <div id="hotel">
                             <figure>
-                                <img src="C:\Users\Titoune\Desktop\formation_open _classrooms\Avec_tuteur\Projets\P2_tristan_riedinger\Projet 2 - Reservia\images\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" titile="Hôtel chez Amina" class="hotami" />
+                                <img src="images\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" titile="Hôtel chez Amina" class="hotami" />
                             
                            </figure>
                            <div id="apercu">
@@ -160,7 +187,7 @@
                     <div id="popu">
 
                         <figure>
-                            <img src="C:\Users\Titoune\Desktop\formation_open _classrooms\Avec_tuteur\Projets\P2_tristan_riedinger\Projet 2 - Reservia\images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" titile="Hôtel Le soleil du matin" class="hotsol" />
+                            <img src="images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" titile="Hôtel Le soleil du matin" class="hotsol" />
                                 <figcaption>Nuit à partir de 128€</figcaption>
                         </figure>                          
                                    
@@ -204,6 +231,9 @@
                         <li>Centre d'aide</li>
                         <li>Nous contacter</li>
                     </ul>       
+
+
+        
 
                 </div>
 
