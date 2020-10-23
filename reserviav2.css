@@ -1,7 +1,9 @@
-html
+#bobo
 {
     width: 1600px;
     margin: auto;
+
+
 }
 
 
@@ -53,13 +55,7 @@ li
     padding-left: 5px;
 }
 
-.rechercher
-{
-    padding-left: 4px;
-    padding-right: 5px;   
-    background-color: rgb(113, 113, 240);
-    border-radius: 0px 7px 7px 0px;
-}
+
 
 
                                         /* Barre de filtres */
@@ -71,6 +67,14 @@ li
     justify-content: space-between;
     font-size: 1.3em;
 
+}
+
+.brech
+{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 0px 10px 10px 0px;
 }
 .bouton
 {
@@ -129,18 +133,11 @@ li
 
 
 
-.test
-{
-    list-style-type: none;
-    border: 2px solid red;
-    font-size: 1.3em;
-    border-radius:40%;
-    
-}
+
 .photos
 {
-    width: 250px;
-    height: 160px;
+    width: 200px;
+    height: 130px;
     border-radius: 10px 10px 0px 0px;
    
 }
@@ -149,44 +146,39 @@ li
 
 td
 {
-    border: 3px solid white;
     
-    border-radius: 10%;
-    justify-content: space-around;
-    text-align: center;  
-}
-
-
-.pop
-{
-    width: 200px;
-    height: 150px;
+    background-color: #ECEDF2;   
+    border: 4px solid white;
+    border-radius: 10%;   
+      
+    
 }
 
 
 
-table
+
+
+.table
 {
     
     width: 900px;
     margin: auto; 
-    border-spacing:  5px 5px;
-
+    border-spacing:  50px 50px;
+    border-radius: 10%;
+    
 }
 
-.table
-
+th
 {
-    padding-top: 80px;
+    font-size: 1.6em;
 }
 
 #heber
 {
-    background-color: grey;
+    background-color: #ECEDF2;
+    border-radius: 5%;
     width: 66.6%;
-    
-   
-    
+      
 }
 
 
@@ -194,23 +186,13 @@ table
 .corps
 {
     display: flex;
+    border: 2px solid red;
     
 }
 
-#p2
-{
-    width: 400px;
-    margin: auto;
-    background-color: grey;
-    
-   
 
-}
 
-figcaption
-{
-    text-align: center;
-}
+
 
 footer
 {
@@ -220,31 +202,190 @@ footer
     
 }
 
-.footer
+#footer
 {
-    position: relative;
+    background-color: #0065FC;
 
 }
 
-#populaire
-{
-    padding-left: 100px;
-}
+
 
 figcaption
 {
     background-color: white;
+    border: 3px solid white;
+    
 }
+
+
+
+.fas.fa-star
+{
+    color: #0065FC;
+}
+
+
+
+
+
 
 .foactiv
 {
-    width: 200px;
-    height: 160px;
+    width: 150px;
+    height: auto;
+    border-radius: 10%;
+   
+}
+
+.gfoactiv
+{
+    
+    border-radius: 10%;
+    width: 300px;
+    height: auto;
+
+
 }
 
 #activite
 {
 
     display: flex;
+    position: relative;
+    padding-top: 50px;
     
+    
+    
+}
+
+.activite
+{
+    background-color: #ECEDF2;
+    padding-right: 50px;
+    width: 100%;
+    padding-top: 50px;
+    border-radius: 10%;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#populaire
+{
+    padding-left: 100px;
+}
+
+
+#p2
+{
+    width: 400px;
+   
+    background-color: ECEDF2;
+    border-spacing:  10px 20px; 
+    height: 100%;
+
+
+}
+
+
+.figpop
+{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.pop
+{
+    width: 165px;
+    height: 130px;
+}
+
+
+
+.foncfoot
+{
+    line-height: 20px;
+}
+
+
+
+@media screen and (max-width: 1024px)
+{
+    #body
+    {
+        width: auto;
+    }
+
+    nav ul
+    {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+#heber1
+{
+    background-color: #ECEDF2;
+    border-radius: 5%;
+    width: 66.6%;
+    
+}
+
+.table1
+{
+    width: 900px;
+    margin: auto; 
+    border-spacing:  50px 50px;
+    border-radius: 10%;
+}
+
+.photos1
+{
+    width: 200px;
+    height: 130px;
+    border-radius: 10px 10px 0px 0px;
+    border: 5px solid white;
+}
+
+.heb1
+{
+display: flex;
+}
+
+.heb2
+{
+    display: flex;
+}
+
+
+.corps1
+{
+    display: flex;
+    border: 3px solid black;
 }
