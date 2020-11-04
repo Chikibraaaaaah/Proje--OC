@@ -1,0 +1,86 @@
+#body
+{
+    width: 720px;
+    
+   
+}
+
+
+
+.menu
+{
+   
+}
+
+
+
+
+.activite
+{
+display: grid;
+grid-template-columns: repeat(1,360px);
+grid-template-rows: repeat(6,260px);   
+grid-template-areas: 
+"port "
+"pomegues"
+"calanques" 
+"dame"
+ "frioul"  
+ "longchamps";
+grid-row-gap: 2%;
+height: 1800px;
+}
+
+.apercu_activite
+{
+    width: 360px;
+    height: 180px;
+    border-radius: 20px 20px 0px 0px; 
+   
+}
+
+.apercu_gdeactivite
+{
+    width: 360px;
+    height: 180px;
+    border-radius: 20px 20px 0px 0px;
+  
+   
+}
+
+.header
+{
+    size: 1.5em;
+}
+
+
+#hebergement_populaire
+{
+    width: 60%;
+    order: 1;
+}
+
+
+#hebergement_dispo
+{
+    order: 2;
+    
+}
+#partie_hebergement
+{
+    display: flex;  
+    flex-direction: column;    
+    
+}
+
+
+footer
+{
+    flex-direction: column; 
+
+}
+.corps
+{
+    display: block;
+    width: 720px;
+}

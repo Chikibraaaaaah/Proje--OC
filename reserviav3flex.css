@@ -1,0 +1,255 @@
+#body
+{
+    width: 320px;
+    margin: auto;
+    font-family: raleway ;
+ 
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.haut
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ul
+{
+    list-style: none;
+    justify-content: space-between;
+    
+}
+
+.header
+{
+    left: 0;
+}
+
+.header ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.recherche
+{
+    width: 100%;
+    
+}
+
+.fas.fa-map-marker-alt
+{
+   border-radius: 5%;
+   width: 25px;
+   height: 20px;
+   background-color: #F2F2F2;
+   margin: auto;
+ 
+    
+}
+
+.champ_recherche
+{
+    width: 78%;
+    
+}
+
+.fas.fa-search
+{
+  
+   background-color:  #0065FC;
+   border-radius: 5%;
+   padding-bottom: 4px;
+   padding-top: 1px;
+   
+   
+   
+}
+
+.filtres ul
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.hebergement_populaire
+{
+    width: 100%;
+    background-color: #F2F2F2;
+    min-height: 400px;
+   
+}
+
+figure
+{
+    background-color: white;
+}
+
+.figure_populaire
+{
+   width: 90%;
+   border: 5px solid white;
+   display: flex;
+   height: 90px;
+   margin: auto;
+   margin-top: 6px;   
+   border-radius: 5px;
+   
+}
+
+
+
+.apercu_populaire
+{
+    height: 100%;
+    width: 35%;
+    border-radius: 5px;
+    
+}
+
+.fas.fa-chart-line
+{
+  float: right;
+  padding-right: 12px;
+    
+}
+
+
+.description_populaire
+{
+    font-size: 0.7em;
+    padding-left: 6px;
+    padding-right: 2px;
+    line-height: 10px;   
+   
+    height: 100%;
+    width: 100%;
+}
+
+
+
+h1
+{
+    font-size: 1.1em;
+    margin-left: 6px;
+    padding-top: 1px;
+}
+
+.fas.fa-star
+{
+
+}
+
+.fas.fa-star.blanche
+{
+    color: #DEEBFF;
+}
+
+
+.hebergement
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+    
+ 
+
+}
+
+.hebergement_marseille
+{
+    width: 95%;
+    height: 140px;
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom: 6px; 
+    border-radius: 5%;
+    line-height: 0.6em;
+    font-size: 0.7em;
+    padding-bottom: 9px;
+    border: 5px solid white;
+    box-shadow: 1px 2px 4px rgb(194, 193, 193) ;
+    
+    
+    
+}
+
+.apercu_marseille
+{
+  width: 100%;
+  height: 100px;
+  border-radius: 5px 5px 0px 0px;
+  border-color: rgba(0, 0, 0, 0.2);
+     
+}
+
+.description_marseille
+{
+    margin-left: 6px;   
+    line-height: 1px;
+  
+}
+
+
+#activite
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   margin-left: -35px;
+   
+    
+}
+
+.apercu_activite
+{
+    width: 310px;
+    height: 110px;
+    border-radius: 10px 10px 0px 0px;
+  
+   
+   
+} 
+
+.activite_marseille
+{
+    width: 310px;
+    height: 150px;   
+    border-radius: 0px 0px 10px 10px;
+    
+    
+    
+    
+}
+
+.description_activite
+{
+    padding-left: 6px;
+    font-weight: bold;
+    
+  
+}
+
+footer
+{
+    background-color: #F2F2F2;
+    padding-top: 10px;
+    margin-top: 25px;
+}
+
+footer li
+{
+    line-height: 1.5em;
+   
+}
+
