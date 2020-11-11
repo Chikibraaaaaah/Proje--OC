@@ -9,14 +9,33 @@
 .header
 {
     display: flex;
-    
-    
+        
 }
 
-.reservia
+.header
 {
     
+    align-items: center;
 }
+
+
+.header p
+{
+    padding-left: 250px;
+}
+
+
+.header_hebergement
+{
+   border-bottom: none;
+   
+}
+.header_activite
+{
+    border-bottom: none;
+   
+}
+
 
 
 .bouton_desktop
@@ -136,6 +155,11 @@ nav
    flex-wrap: wrap;
    justify-content: space-between;
       
+}
+
+.activite_marseille
+{
+    margin-left: -16px;
 }
 
 .bp2

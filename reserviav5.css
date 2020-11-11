@@ -2,7 +2,7 @@
 {
     width: 1600px;
     margin: auto;
-    font-size: 1.1em;
+    font-size: 1.1em;    
     font-family: 'Raleway', sans-serif;
     
    
@@ -61,6 +61,8 @@ header li
 {
     border: 1px solid #ECEDF2;
     width: 55%;
+    font-weight: bold;
+    
 }
 
 .geoloc
@@ -145,7 +147,14 @@ header li
 {
     background-color: #DEEBFF;
     border: 5px solid#DEEBFF;
-    border-radius: 50%;#
+    border-radius: 50%;
+}
+
+.fas.fa-info-circle
+{
+    color:white;
+    background-color:  #0065FC;
+    border-radius: 100%;
 }
 
 
@@ -226,6 +235,8 @@ h3
     border: 5px solid white;
 }
 
+/* Section populaire */
+
 
 #hebergement_populaire
 {     
@@ -277,11 +288,14 @@ h3
 .fas.fa-chart-line
 {
     float: right;    
-    padding-right: 40px;s
+    padding-right: 40px;
 }
 
 
-   
+h1
+{
+    font-weight: bold;
+}
 
 section h2
 {
@@ -299,6 +313,7 @@ section h3
 {
     padding-top: 6px;
     min-height: 700px;
+    
 }
 
 .activite

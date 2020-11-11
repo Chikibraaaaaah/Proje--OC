@@ -2,11 +2,14 @@
 {
     width: 1600px;
     margin: auto;
-
-
+    font-size: 1.1em;
+    font-family: 'Raleway', sans-serif;
 }
-/* Header */
-
+a
+{
+    text-decoration: none;
+}
+                                                                    /* Header */
 .header
 {
     display: flex;
@@ -19,38 +22,21 @@
     position: absolute;
     left: 0;
 }
-
 .menu
 {
     display: flex;
     
 }
-
 header li 
-{
-    
+{    
     padding-right: 50px;    
-    list-style-type: none;
-    
+    list-style-type: none;    
 }
-.complement
-{
-    line-height: 0.8em;
-}
-
-a
-{
-    text-decoration: none;
-}
-
-
-
 #barre_recherche
 {
     display: flex;
     font-size: 1.5em;
-    width: 25%;
-   
+    width: 25%;   
 }
 
 .barre_recherche
@@ -73,16 +59,10 @@ a
 {   padding-left: 18px;
     padding-top: 7px;
     padding-bottom: 5px;
-    background-color: #ECEDF2;
+    background-color: #F2F2F2;
     border-radius: 10px 0px 0px 10px;
     width: 10%;
 }
-
-
-
-
-
-
 
 #filtres
 {
@@ -94,52 +74,40 @@ a
 
 }
 
+.bouton_filtres:hover
+{
+    background-color: cadetblue;
+   
+}
+
+
 .bouton_filtres
 {
     border: 2px solid #ECEDF2;
     border-radius: 40px;
-    margin: auto;
-   
-    
-   
+    margin: auto;   
 }
 
 .bouton
 {
- font-size: 1.em;
+
  border: 2px solid grey;
  border-radius: 40%;
-
 }
 
 .button
-{
-    border: none;
+{   border-style: none;
     background-color: transparent;
-    padding-right: 15px;
+    padding-right: 15px;  
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .fas.fa-child
 {
     background-color: #DEEBFF;
-    border: 3px solid  #DEEBFF;
+    border: 5px solid  #DEEBFF;
     border-radius: 50%;   
     
 }
-
-
 
 .fas.fa-money-bill-wave
 {
@@ -167,17 +135,17 @@ a
 {
     background-color: #DEEBFF;
     border: 5px solid#DEEBFF;
-    border-radius: 50%;
+    border-radius: 50%;#
 }
 
 
 
+                                                        /* corps de la page */
 
 
 
-/* corps de la page */
 
-.corps
+#partie_hebergement
 {
     display: flex;
     justify-content: space-between;
@@ -186,8 +154,8 @@ a
  
 }
 
-#hebergement{
-    background-color: #ECEDF2;
+#hebergement_dispo{
+    background-color: #F2F2F2;
     border-radius: 5%;
     width: 60%;
     padding-top: 30px;
@@ -195,8 +163,8 @@ a
     
 }
 
-.hebergement{
-    width: 100%;
+.hebergement_dispo{
+    
     border-radius: 5%;
     display: flex;    
     flex-wrap: wrap;
@@ -209,7 +177,7 @@ figcaption
 {
     background-color: white;              
     border: 3px solid white;
-    position: relative;
+    
   
 }
 
@@ -217,42 +185,28 @@ figcaption
 {
     line-height: 0.5em;
     margin-top: -15px;
-    border-radius: 10%;
+    border-radius: 0px 0px 10px 10px;
     padding-left: 10px;
-    padding-bottom: 10px;
-    
-    
+    padding-bottom: 10px;   
 }
 
-.description_populaire
+
+h3
 {
-   
-    border:3px solid white;
-    border-radius: 0px 10px 10px 0px;
-    width: 250px;
-    
-    
-   
+    line-height: 1.2em;
 }
+
+
 
 .fas.fa-star.blanche
 {
-    color:  #ECEDF2;
+    color: #DEEBFF;
 }
 
-.hotel
+.fas.fa-star
 {
-    border: 3px solid w
+    color: #0065FC;   
 }
-
-
-.fas.fa-star{
-    color: #0065FC;
-   
-}
-
-
-
 
 .apercu_hebergement
 {
@@ -263,140 +217,157 @@ figcaption
 }
 
 
+#hebergement_populaire
+{     
+    background-color: #F2F2F2;
+    border-radius: 5%;
+    width: 33.3%;    
+}
 
-
-
-
-.heb1
+.hebergement_populaire
 {
-display: flex;
+   display: flex; 
+   flex-direction: column;
+   justify-content: space-around;
+   padding-top: 30px;
 
 }
 
-.heb2
-{
-    display: flex;
-}
+.popu
+{  
+  display: flex;  
+  border-radius: 10%;  
+  min-width: 85%;
+ 
+  
+ }
 
 
 .apercu_pop
 {
-    width: 40%;
-    
+    width: 30%;    
     border-radius: 10px 0px 0px 10px;
     border: 5px solid white;
-    height: 130px;
-    overflow: hidden;
-    
-
-}
-
-.note
-{
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 10px;
-    padding-left: 5px;
-}
-
-
-.fas.fa-chart-line
-{
-    
-    padding-right: 40px;
-}
-
-.populaire
-{
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   padding-top: 30px;
-   
-   
-}
-
-
-
-#populaire
-{
-    height: auto;    
-   
-    background-color: #ECEDF2;
-    border-radius: 5%;
-    width: 33.3%;
-    
-}
-
-.popu
-{
+    height: 140px; 
   
-  display: flex;
-  border-radius: 10%;
-  
- }
-
-#activite
-{
-
-    display: flex;
-    display: none;
-    
-    position: relative;
-   
-    
     
 }
 
+.description_populaire
+{   
+    border:3px solid white;
+    border-radius: 0px 10px 10px 0px;     
+    line-height: 0.9em;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+ #activite
+{
+    padding-top: 30px;
+    min-height: 650px;
+    width: 1600px;
+  
+    
+}
 
 .activite
-{        
-    width: 100%;
-    padding-top: 50px;
-    
- 
-}
-
-.foactiv
 {
-    width: 300px;
-    height: 160px;
-    border-radius: 10%;
+ 
+    display: grid;
+    grid-template-columns: repeat(4,360px);
+    grid-template-rows: repeat(2,260px);   
+    grid-template-areas: 
+    "port pomegues calanques dame"
+    "port frioul calanques longchamps";
+    grid-column-gap:3%;
+    grid-row-gap: 5%;
     
-    
-    
+  }
+
+.apercu_activite
+{
+    width: 360px;
+    height: 180px;
+    border-radius: 20px 20px 0px 0px;
+  
    
 }
 
-.gfoactiv
-{
-    
-    border-radius: 10%;
-    width: 300px;
-    height: 350px;  
-    
-
-
+.description_activite
+{   
+    padding-top: 15px;
+    margin-top: -6px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0 2px 8px -3px black;    
 }
 
 
+.port
+{
+    grid-area: port;
+    font-weight: bold;  
+}
+.pomegues
+{
+    grid-area: pomegues;      
+    font-weight: bold;    
+}
+.calanques
+{
+    grid-area:calanques;
+    font-weight: bold;
+    
+}
+.dame
+{
+    grid-area:dame;
+    font-weight: bold;   
+}
+.frioul
+{       
+    grid-area:frioul;    
+  
+    font-weight: bold;
+}
+.longchamps
+{
+    grid-area:longchamps;
+    font-weight: bold;    
+}
+.fas.fa-chart-line
+{
+    float: right;    
+    padding-right: 40px;s
+}
+.corps h2
+{
+    padding-left: 40px;
+}
 
-
-/* Footer */
+                                                                    /* Footer */
 
 footer
 {
     display: flex;
-    justify-content: space-around;
-        
+    justify-content: space-between;
+    font-size: 1.3em;
+    line-height: 1.8em;
+    background-color: #F2F2F2;   
+    padding-right: 50px;
+    padding-left: 20px; 
 }
 
 #footer
 {
-    background-color: #ECEDF2;    
-    line-height: 1.6em;
-    
-
 }
 
 footer li
@@ -414,97 +385,3 @@ footer li
 
 
 
-
-
-
-
-
-#activite1
-{
-    padding-top: 30px;
-    min-height: 550px;
-    max-width: 1600px;
-  
-    
-}
-
-
-
-
-.activite1
-{
- 
-    display: grid;
-    grid-template-columns: repeat(4,360px);
-    grid-template-rows: repeat(2,260px);   
-    grid-template-areas: 
-    "port pomegues calanques dame"
-    "port frioul calanques longchamps";
-    grid-column-gap:3%;
-    grid-row-gap: 5%;
-    
-  }
-
-
-
-
-
-
-.apercu_activite
-{
-    width: 360px;
-    height: 180px;
-    border-radius: 5%;
-    box-shadow: 0 8px 6px -6px black;
-   
-}
-
-.apercu_gdeactivite
-{
-    width: 360px;
-    height: 470px;
-    border-radius: 5%;
-    box-shadow: 0 8px 6px -6px black;
-    
-}
-
-
-.port
-{
-    grid-area: port;
-    
-    border-radius: 5%;
-    font-weight: bold;
-    
-}
-.pomegues
-{
-    grid-area: pomegues;
-   
-    border-radius: 5%;
-}
-.calanques
-{
-    grid-area:calanques;
-   
-    border-radius: 5%;
-}
-.dame
-{
-    grid-area:dame;
-   
-    
-    border-radius: 5%;
-}
-.frioul
-{       
-    grid-area:frioul;
-    
-    border-radius: 5%;
-}
-.longchamps
-{
-    grid-area:longchamps;
-    
-    border-radius: 5%;
-}
