@@ -1,0 +1,221 @@
+#body
+{
+    width: 320px;
+    margin: auto;
+ 
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.haut
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ul
+{
+    list-style: none;
+    justify-content: space-between;
+    
+}
+
+.header
+{
+    left: 0;
+}
+
+.header ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.recherche
+{
+    width: 100%;
+    
+}
+
+.fas.fa-map-marker-alt
+{
+    width: 8%;
+    background-color: #F2F2F2;
+    
+}
+
+.champ_recherche
+{
+    width: 78%;
+    
+}
+
+.fas.fa-search
+{
+   width: 8%;
+   height: 100%;
+   background-color:  #0065FC;
+   border-radius: 5%;
+   
+   
+}
+
+.filtres ul
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.hebergement_populaire
+{
+    width: 100%;
+    background-color: #F2F2F2;
+    min-height: 400px;
+}
+
+.figure_populaire
+{
+   width: 90%;
+   border: 5px solid white;
+   display: flex;
+   height: 90px;
+   margin: auto;
+   margin-top: 6px;
+  
+   border-radius: 5px;
+   
+}
+
+
+
+.apercu_populaire
+{
+    height: 100%;
+    width: 33%;
+    border-radius: 5px;
+}
+
+.fas.fa-chart-line
+{
+  float: right;
+  padding-right: 12px;
+    
+}
+
+
+.description_populaire
+{
+    font-size: 0.7em;
+    padding-left: 6px;
+    padding-right: 2px;
+    line-height: 10px;   
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+h1
+{
+    font-size: 1.1em;
+    margin-left: 6px;
+    padding-top: 1px;
+}
+
+.fas.fa-star
+{
+
+}
+
+.fas.fa-star.blanche
+{
+    color: #DEEBFF;
+}
+
+
+.hebergement
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+    
+ 
+
+}
+
+.hebergement_marseille
+{
+    width: 95%;
+    height: 150px;
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom: 6px; 
+    border-radius: 5%;
+    line-height: 0.7em;
+    font-size: 0.8em;
+    padding-bottom: 6px;
+    box-shadow: 3px 3px 1.5px rgb(248, 246, 246) ;
+    border: 5px solid rgb(248, 242, 242);
+    
+}
+
+.apercu_marseille
+{
+  width: 100%;
+  height: 80px;
+  border-radius: 5px 5px 0px 0px;
+     
+}
+
+.description_marseille
+{
+    margin-left: 6px;   
+  
+}
+
+
+#activite
+{
+    width: 95%;
+    display: grid;   
+   
+    grid-template-columns:  repeat(1, 100%);
+    grid-template-rows: repeat(6, 150px);
+    grid-template-areas: "port"
+    "pomegues"
+    "frioul"
+    "calanques"
+    "dame"
+    "longchamps";
+    
+    grid-row-gap: 5%;
+    height: 1500px;
+   
+    
+}
+
+.apercu_activite
+{
+    
+    height: 150px;
+    width: auto;
+    margin-top: -500px;
+   
+} 
+
+.activite_marseille
+{
+    width: 320px;
+    height: 150px;
+    justify-content: center;
+}

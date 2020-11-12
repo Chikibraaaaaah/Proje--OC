@@ -1,0 +1,387 @@
+#body
+{
+    width: 1600px;
+    margin: auto;
+    font-size: 1.1em;
+    font-family: 'Raleway', sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
+                                                                    /* Header */
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    min-height: 80px;
+}
+.reservia
+{
+    position: absolute;
+    left: 0;
+}
+.menu
+{
+    display: flex;
+    
+}
+header li 
+{    
+    padding-right: 50px;    
+    list-style-type: none;    
+}
+#barre_recherche
+{
+    display: flex;
+    font-size: 1.5em;
+    width: 25%;   
+}
+
+.barre_recherche
+{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    width: 35%;
+}
+
+.barre
+{
+    border: 1px solid #ECEDF2;
+    width: 55%;
+}
+
+.geoloc
+{   padding-left: 18px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    background-color: #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+    width: 10%;
+}
+
+#filtres
+{
+    display: flex;
+    padding-top: 20px;
+    width: 800px;
+    font-size: 1.4em;
+   
+
+}
+
+.bouton_filtres:hover
+{
+    background-color: cadetblue;
+   
+}
+
+
+.bouton_filtres
+{
+    border: 2px solid #ECEDF2;
+    border-radius: 40px;
+    margin: auto;   
+}
+
+.bouton
+{
+
+ border: 2px solid grey;
+ border-radius: 40%;
+}
+
+.button
+{   border-style: none;
+    background-color: transparent;
+    padding-right: 15px;  
+}
+
+.fas.fa-child
+{
+    background-color: #DEEBFF;
+    border: 5px solid  #DEEBFF;
+    border-radius: 50%;   
+    
+}
+
+.fas.fa-money-bill-wave
+{
+    
+    background-color: #DEEBFF;
+    border: 5px solid #DEEBFF;
+    border-radius: 50%;
+  
+   
+}
+
+
+
+.fas.fa-heart
+{
+    background-color: #DEEBFF;
+    border: 5px solid#DEEBFF;
+    border-radius: 50%;
+}
+
+
+
+
+.fas.fa-dog
+{
+    background-color: #DEEBFF;
+    border: 5px solid#DEEBFF;
+    border-radius: 50%;#
+}
+
+
+
+                                                        /* corps de la page */
+
+
+
+
+#partie_hebergement
+{
+    display: flex;
+    justify-content: space-between;
+   
+    
+ 
+}
+
+#hebergement_dispo{
+    background-color: #F2F2F2;
+    border-radius: 5%;
+    width: 60%;
+    padding-top: 30px;
+    padding-left: 10px;
+    
+}
+
+.hebergement_dispo{
+    
+    border-radius: 5%;
+    display: flex;    
+    flex-wrap: wrap;
+    
+}
+
+
+figcaption 
+
+{
+    background-color: white;              
+    border: 3px solid white;
+    
+  
+}
+
+.description_hotel
+{
+    line-height: 0.5em;
+    margin-top: -15px;
+    border-radius: 0px 0px 10px 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;   
+}
+
+
+h3
+{
+    line-height: 1.2em;
+}
+
+
+
+.fas.fa-star.blanche
+{
+    color: #DEEBFF;
+}
+
+.fas.fa-star
+{
+    color: #0065FC;   
+}
+
+.apercu_hebergement
+{
+    width: 230px;
+    height: 110px;
+    border-radius: 20px 20px 0px 0px;
+    border: 5px solid white;
+}
+
+
+#hebergement_populaire
+{     
+    background-color: #F2F2F2;
+    border-radius: 5%;
+    width: 33.3%;    
+}
+
+.hebergement_populaire
+{
+   display: flex; 
+   flex-direction: column;
+   justify-content: space-around;
+   padding-top: 30px;
+
+}
+
+.popu
+{  
+  display: flex;  
+  border-radius: 10%;  
+  min-width: 85%;
+ 
+  
+ }
+
+
+.apercu_pop
+{
+    width: 30%;    
+    border-radius: 10px 0px 0px 10px;
+    border: 5px solid white;
+    height: 140px; 
+  
+    
+}
+
+.description_populaire
+{   
+    border:3px solid white;
+    border-radius: 0px 10px 10px 0px;     
+    line-height: 0.9em;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+ #activite
+{
+    padding-top: 30px;
+    min-height: 650px;
+    width: 1600px;
+  
+    
+}
+
+.activite
+{
+ 
+    display: grid;
+    grid-template-columns: repeat(4,360px);
+    grid-template-rows: repeat(2,260px);   
+    grid-template-areas: 
+    "port pomegues calanques dame"
+    "port frioul calanques longchamps";
+    grid-column-gap:3%;
+    grid-row-gap: 5%;
+    
+  }
+
+.apercu_activite
+{
+    width: 360px;
+    height: 180px;
+    border-radius: 20px 20px 0px 0px;
+  
+   
+}
+
+.description_activite
+{   
+    padding-top: 15px;
+    margin-top: -6px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0 2px 8px -3px black;    
+}
+
+
+.port
+{
+    grid-area: port;
+    font-weight: bold;  
+}
+.pomegues
+{
+    grid-area: pomegues;      
+    font-weight: bold;    
+}
+.calanques
+{
+    grid-area:calanques;
+    font-weight: bold;
+    
+}
+.dame
+{
+    grid-area:dame;
+    font-weight: bold;   
+}
+.frioul
+{       
+    grid-area:frioul;    
+  
+    font-weight: bold;
+}
+.longchamps
+{
+    grid-area:longchamps;
+    font-weight: bold;    
+}
+.fas.fa-chart-line
+{
+    float: right;    
+    padding-right: 40px;s
+}
+.corps h2
+{
+    padding-left: 40px;
+}
+
+                                                                    /* Footer */
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3em;
+    line-height: 1.8em;
+    background-color: #F2F2F2;   
+    padding-right: 50px;
+    padding-left: 20px; 
+}
+
+#footer
+{
+}
+
+footer li
+{
+    list-style-type: none;
+
+}
+
+
+
+
+
+
+
+
+
+
