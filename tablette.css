@@ -117,8 +117,8 @@ padding-top: 8px;
 {
    display: flex;
    flex-direction: column;
-   height: 50%;
-   width: 80%;
+   height: 60%;
+   width: 200px;
 }
 
 .apercu_populaire
@@ -137,6 +137,7 @@ padding-top: 8px;
 .description_populaire
 {
     line-height: 3px;
+    height: 30%;
 }
 
 /* Hébergement dispos */
