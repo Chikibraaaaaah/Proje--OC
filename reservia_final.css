@@ -14,10 +14,7 @@ a
 }
 
 
-a:visited
-{
-    color: none;
-}
+
 
 h1
 {
@@ -155,6 +152,7 @@ header p
     border: 5px solid#DEEBFF;
     border-radius: 50%;
     margin-right: 3px;
+    padding-right: 2px;
     color: #0065FC;
 }
 
