@@ -6,6 +6,7 @@
     margin: auto;
 }
 
+
 h1
 {
     padding-left: 4px;
@@ -15,7 +16,7 @@ h1
 
 #hebergement h2
 {
-    margin-left: 8px;
+    margin-left: 18px;
 }
 
 /* header */
@@ -103,6 +104,8 @@ h1
     order:2;
     background-color: #F2F2F2;
     border-radius: 10px 10px 10px 10px;
+    height:512px;
+    
     
 }
 
@@ -116,6 +119,16 @@ h1
 .description_populaire
 {
     font-size: 0.7em;
+}
+
+.tous_logements_populaire
+{
+    padding-top: 10px;
+}
+
+.tous_logements_populaire .fas.fa-star
+{
+    padding-top: 18px;
 }
 
 /* hebergement Marseille */
