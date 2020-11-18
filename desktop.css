@@ -2,8 +2,9 @@
 
 #body
 {
-    width: 1600px;
+    width: 90%;
     margin: auto;
+   
 }
 
 
@@ -32,7 +33,7 @@ h1
 
 .header p
 {
-    padding-left: 1000px;
+    padding-left: 900px;
 }
 
 .haut
@@ -98,23 +99,29 @@ h1
     margin-right: 40px;
 }
 
-.hebergement_populaire
+
+    /* hébergements populaires */
+
+    .hebergement_populaire
 {
     width: 30%;        
     order:2;
     background-color: #F2F2F2;
     border-radius: 10px 10px 10px 10px;
-    height:512px;
-    
+    height: 505px
     
 }
-
-    /* logements populaires */
 
 .figure_populaire
 {
     margin-top: 20px;
+    height: 105px;
+    
 }    
+.apercu_populaire
+{
+    width: 105px;
+}
 
 .description_populaire
 {

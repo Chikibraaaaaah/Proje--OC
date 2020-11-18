@@ -2,10 +2,11 @@
 
 #body
 {
+    
     width: 320px;
     margin: auto;
     font-family: raleway ;
-    text-align: justify; 
+   
 }
 
 a
@@ -242,7 +243,8 @@ header p
 {
     width: 100%;
     background-color: #F2F2F2;
-   height: 390px;
+    padding-bottom: 12px;
+  
     
 }
 
@@ -261,7 +263,8 @@ header p
    height: 90px;
    margin: auto;
    margin-top: 6px;   
-   border-radius: 5px;
+   border-radius: 5px; 
+   
    
 }
 .apercu_populaire
@@ -293,6 +296,11 @@ header p
 
 
 /* Hebergement Marseille */
+
+#hebergement
+{
+    height: auto;
+}
 
 
 .hebergement
@@ -405,8 +413,8 @@ header p
 footer
 {
     background-color: #F2F2F2;
-    padding-top: 10px;
-    margin-top: 25px;
+    padding-top: 4px;
+    margin-top: 15px;
 }
 
 footer li
