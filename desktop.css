@@ -15,6 +15,8 @@ h1
     font-size: 1.3em;
 }
 
+
+
 #hebergement h2
 {
     margin-left: 18px;
@@ -108,24 +110,24 @@ h1
     order:2;
     background-color: #F2F2F2;
     border-radius: 10px 10px 10px 10px;
-    height: 505px
     
 }
 
 .figure_populaire
 {
     margin-top: 20px;
-    height: 105px;
+    height: 140px;
     
 }    
 .apercu_populaire
 {
-    width: 105px;
+    width: 35%;
 }
 
 .description_populaire
 {
-    font-size: 0.7em;
+    font-size: 0.9em;    
+    
 }
 
 .tous_logements_populaire
@@ -168,9 +170,20 @@ h1
 .hebergement_marseille
 {
     width: 250px;
-    height: 80%;
+    height: 200px;
+    line-height: 0px;
+    font-size: 0.9em;
 }
 
+.description_marseille
+{
+    font-size: 0.9em;
+}
+
+.apercu_marseille
+{
+    height: 70%;
+}
 
 /* Activites */
 
@@ -192,9 +205,7 @@ h1
 .bp3
 {
     display: flex;
-   
-   
-   
+   flex-wrap: wrap;  
 }
 
 

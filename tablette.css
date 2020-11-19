@@ -31,7 +31,7 @@ h2
 
 .header p
 {
-    padding-left: 200px;
+    padding-left: 160px;
 }
 
 
@@ -137,8 +137,9 @@ padding-top: 8px;
 
 .description_populaire
 {
-    line-height: 3px;
-    height: 30%;
+    padding-top: 2px;
+    line-height: 11px;
+    height: 35%;
 }
 
 /* Hébergement dispos */
@@ -167,13 +168,11 @@ padding-top: 8px;
 .apercu_marseille
 {
     width: 100%;
-    height:70%
+    height: 75%;
+    
 }
 
-.description_marseille
-{
-    line-height: 10px ;
-}
+
 .bp1
 {
     display: flex;
