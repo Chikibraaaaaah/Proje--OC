@@ -205,7 +205,13 @@ h1
 .bp3
 {
     display: flex;
-   flex-wrap: wrap;  
+   
+    justify-content: center;
+}
+
+.activite_desktop
+{
+    flex-wrap: wrap;
 }
 
 
