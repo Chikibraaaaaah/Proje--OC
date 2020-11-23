@@ -1,5 +1,4 @@
 
-
 #body
 {
     
@@ -22,6 +21,7 @@ h1
     font-size: 1.1em;
     margin-left: 6px;
     padding-top: 1px;
+    
 }
 
 #hebergement h2
@@ -33,6 +33,7 @@ h1
 li
 {
     font-weight: bold;
+    
 }
 
 ul
