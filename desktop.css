@@ -46,14 +46,22 @@ h1
 .header_hebergement
 {
    border-bottom: none;
+   
 
 }
 .header_activite
 {
     border-bottom: none;
-    color: #0065FC;
+       
 }
 
+
+
+.header_inscription
+{
+    font-size: 1.1em;
+    
+}
 
 /* header navigation */
 
@@ -169,7 +177,7 @@ h1
 
 .hebergement_marseille
 {
-    width: 250px;
+    width: 70%;
     height: 200px;
     line-height: 0px;
     font-size: 0.9em;
@@ -192,53 +200,56 @@ h1
 .activite_desktop
 {
     display: flex;
-    justify-content: space-around;
+    
     
 }
 
 .bp2
 {
     height: 500px;
-    margin-left: 100px;
   
 }
 
 .bp3
 {
     display: flex;
-   
-    justify-content: center;
+    width: 50%;   
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .activite_desktop
 {
     flex-wrap: wrap;
+    
 }
 
 
 .activite_marseille
 {
-    height: 40%;
-    margin-top: 12px;
-    margin-top: 40px;
-  
+    height: 40%;    
+    margin-top: 40px;  
 }
-
 
 .apercu_activite
 {
-    height: 85%;    
-   
+    height: 80%;    
 }
 
 .gde
 {
-    height: 87%;
+    height: 88%;
+    overflow: hidden;
 }
 
+.gda
+{
+    height: 90%;
+}
 
 .description_activite
 {
+    justify-content: center;
     padding-top: 4px;
     padding-left: 12px;
     font-weight: bold;
