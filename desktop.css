@@ -173,6 +173,7 @@ h1
     height: 200px;
     line-height: 0px;
     font-size: 0.9em;
+    flex-wrap: wrap;
 }
 
 .description_marseille

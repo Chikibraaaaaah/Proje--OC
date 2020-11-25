@@ -1,4 +1,6 @@
 
+/* Corps  */
+
 #body
 {
     
@@ -13,22 +15,6 @@ a
     text-decoration: none;
 }
 
-
-
-
-h1
-{
-    font-size: 1.1em;
-    margin-left: 6px;
-    padding-top: 1px;
-    
-}
-
-#hebergement h2
-{
-    padding-top: 8px;
-    padding-left: 12px;
-}
 
 li
 {
@@ -46,6 +32,24 @@ figure
 {
     background-color: white;
 }
+
+
+/* Heading */
+
+h1
+{
+    font-size: 1.1em;
+    margin-left: 6px;
+    padding-top: 1px;
+    
+}
+
+#hebergement h2
+{
+    padding-top: 8px;
+    padding-left: 12px;
+}
+
 
  /* Header */
 
